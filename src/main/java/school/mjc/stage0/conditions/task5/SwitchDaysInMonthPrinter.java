@@ -2,11 +2,7 @@ package school.mjc.stage0.conditions.task5;
 
 public class SwitchDaysInMonthPrinter {
     public void amountOfDays(int month) {
-                if (month <= 0 || month > 12) {
-            System.out.println("wrong number!");
-            return;
-        }
-        switch (month) {
+       switch (month) {
             case 1:
                 System.out.println("31");
                 break;
@@ -44,7 +40,7 @@ public class SwitchDaysInMonthPrinter {
                 System.out.println("31");
                 break;
             default:
-                System.out.println("Error");
+                System.out.println("wrong number!");
                 break;
         }
     }
